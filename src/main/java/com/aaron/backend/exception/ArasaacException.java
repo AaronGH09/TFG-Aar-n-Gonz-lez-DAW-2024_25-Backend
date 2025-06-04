@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.aaron.backend.exception;
 
 import org.springframework.http.HttpStatus;
@@ -12,19 +11,4 @@ public class ArasaacException extends RuntimeException {
     public HttpStatus getStatus() {
         return status;
     }
-=======
-package com.aaron.backend.exception;
-
-import org.springframework.http.HttpStatus;
-
-public class ArasaacException extends RuntimeException {
-    private HttpStatus status;
-    public ArasaacException(String message, HttpStatus status) {
-        super(message);
-        this.status=status;
-    }
-    public HttpStatus getStatus() {
-        return status;
-    }
->>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }
