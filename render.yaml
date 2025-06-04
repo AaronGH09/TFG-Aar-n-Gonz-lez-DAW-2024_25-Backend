@@ -5,3 +5,4 @@ services:
     branch: main
     buildCommand: chmod +x mvnw && ./mvnw clean install
     startCommand: java -jar target/*.jar
+    healthCheckPath: "/"
