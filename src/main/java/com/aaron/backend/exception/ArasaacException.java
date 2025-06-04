@@ -26,5 +26,4 @@ public class ArasaacException extends RuntimeException {
     public HttpStatus getStatus() {
         return status;
     }
->>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }
