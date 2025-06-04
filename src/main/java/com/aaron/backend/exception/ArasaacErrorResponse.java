@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.aaron.backend.exception;
 
 public class ArasaacErrorResponse {
@@ -13,4 +14,21 @@ public class ArasaacErrorResponse {
     public String getMessage() { return message; }
     public void setStatus(int status) { this.status = status; }
     public void setMessage(String message) { this.message = message; }
+=======
+package com.aaron.backend.exception;
+
+public class ArasaacErrorResponse {
+    private int status;
+    private String message;
+
+    public ArasaacErrorResponse(int status, String message) {
+        this.status = status;
+        this.message = message;
+    }
+
+    public int getStatus() { return status; }
+    public String getMessage() { return message; }
+    public void setStatus(int status) { this.status = status; }
+    public void setMessage(String message) { this.message = message; }
+>>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }
