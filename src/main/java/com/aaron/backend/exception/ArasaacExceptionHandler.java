@@ -52,3 +52,4 @@ public class ArasaacExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
+>>>>>>> 4818661 (Proyecto inicial conectado a repo existente)

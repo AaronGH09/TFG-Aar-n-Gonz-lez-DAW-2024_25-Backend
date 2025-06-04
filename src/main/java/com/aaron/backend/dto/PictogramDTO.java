@@ -32,4 +32,5 @@ public class PictogramDTO {
     public void setId(int id) {
         this.id = id;
     }
+>>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }

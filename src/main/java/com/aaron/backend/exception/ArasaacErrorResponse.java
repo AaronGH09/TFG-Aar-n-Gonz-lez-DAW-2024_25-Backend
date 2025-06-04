@@ -30,4 +30,5 @@ public class ArasaacErrorResponse {
     public String getMessage() { return message; }
     public void setStatus(int status) { this.status = status; }
     public void setMessage(String message) { this.message = message; }
+>>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }

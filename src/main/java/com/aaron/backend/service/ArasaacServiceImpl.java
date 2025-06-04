@@ -94,4 +94,5 @@ public class ArasaacServiceImpl implements ArasaacService {
         // Retorna una lista vacía si no se encontró ningún pictograma
         return List.of();
     }
+>>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
 }
