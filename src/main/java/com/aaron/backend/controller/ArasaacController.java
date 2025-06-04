@@ -56,4 +56,3 @@ public class ArasaacController {
         return arasaacService.getPictogramIds(palabra);
     }
 }
->>>>>>> 4818661 (Proyecto inicial conectado a repo existente)
